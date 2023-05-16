@@ -1,0 +1,38 @@
+/** invatory:
+Wild flower (16)($12)(25)
+Manuka (8)($30)(6)
+Alfalfa (8)($15)(20)
+Sage  (12)($20)(33)
+Eucalyptus(12)($15)(60)
+Orange blossom (12)($15)(40)
+Buckwheat (8)(12)(16)
+Avocado (12)($20)(60)
+Dandelion (12)($15)(35)
+Lavender (8)($20)(50)
+Blueberry (8)($25)(12)
+Roseemary (12)($20)(20)
+Macadamia (8)($25)(2)
+Pine (12)($16)(58)
+Whipped(8)($25)(51)
+**/
+
+CREATE TABLE invatory (id INTEGER PRIMARY KEY, honey TEXT, oz INTEGER, price TEXT, quantity INTEGER);
+
+INSERT INTO invatory VALUES (1,"Wild flower",16,"$12",25);
+INSERT INTO invatory VALUES(2,"Manuka",8,"$30",6);
+INSERT INTO invatory VALUES(3,"Alfalfa",8,"$15",20);
+INSERT INTO invatory VALUES(4,"Sage",12,"$20",33);
+INSERT INTO invatory VALUES(5,"Eucalyptus",12,"$15",60);
+INSERT INTO invatory VALUES(6,"Orange blossom",12,"$15",40);
+INSERT INTO invatory VALUES(7,"Buckwheat",8,"$12",16);
+INSERT INTO invatory VALUES(8,"Avocado",12,"$20",60);
+INSERT INTO invatory VALUES(9,"Dandelion",12,"$15",35);
+INSERT INTO invatory VALUES(10,"Lavender",8,"$20",50);
+INSERT INTO invatory VALUES(11,"Blueberry",8,"$25",12);
+
+INSERT INTO invatory VALUES(12,"Roseemary",12,"$20",20);
+INSERT INTO invatory VALUES(13,"Macadamia",8,"$25",2);
+INSERT INTO invatory VALUES(14,"Pine",12,"$16",58);
+INSERT INTO invatory VALUES(15,"Whipped",8,"$25",51);
+Select * FROM invatory;
+
